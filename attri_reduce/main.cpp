@@ -11,7 +11,7 @@ vector<vector<int>> ans_attr(vector<int> *POS,int attr_num);
 vector<vector<string>> open_file(string filepath);
 void attrs_reduce(vector<vector<string>> a);
 int main() {
-	string filepath = "D:\\data.txt";
+	string filepath = "data.txt";
 
 	vector<vector<string>> a;
 	a = open_file(filepath);
