@@ -16,6 +16,8 @@ int main() {
 	vector<vector<string>> a;
 	a = open_file(filepath);
 
+	vector<vector<int>> ans;
+
 	attrs_reduce(a);
 
 	system("pause");
